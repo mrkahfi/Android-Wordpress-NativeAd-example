@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lyt_parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:foreground="?selectableItemBackground"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="14dp">
+
+        <RelativeLayout
+            android:layout_width="48dp"
+            android:layout_height="48dp">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/alphabet_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@color/colorPrimary"
+                app:riv_oval="true" />
+
+            <TextView
+                android:id="@+id/alphabet_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingTop="3dp"
+                android:text="T"
+                android:textAllCaps="true"
+                android:textColor="@color/colorWhite"
+                android:textSize="24sp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/category_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Technology"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/post_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 posts" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

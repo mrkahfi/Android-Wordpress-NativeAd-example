@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">Wp Rest API</string>
+    <string name="title_nav_recent">Recents</string>
+    <string name="title_nav_category">Categories</string>
+    <string name="title_nav_favorite">Native Example</string>
+    <string name="failed_title_text">Whoops!</string>
+    <string name="failed_text">There is a problem with your network or the server is down, please try again later.</string>
+    <string name="no_post_found">Whoops, there is no posts found</string>
+    <string name="msg_no_item">Whoops, looks like there is no posts available at this time.</string>
+    <string name="btn_retry">RETRY</string>
+    <string name="msg_please_wait">Please wait&#8230;</string>
+    <string name="content_description">TODO</string>
+
+</resources>
